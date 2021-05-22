@@ -1,0 +1,104 @@
+body {
+    background: url('/internet-3116062_1920.jpg') center center fixed;
+    background-size: cover;
+}
+
+#header {
+    height: 80px;
+    width: 500px;
+    background: linear-gradient(rgb(231, 227, 227), rgb(8, 44, 92));
+    background: -moz-linear-gradient(rgb(231, 227, 227), rgb(8, 44, 92));
+    background: -ms-linear-gradient(rgb(231, 227, 227), rgb(8, 44, 92));
+    background: -webkit-linear-gradient(rgb(231, 227, 227), rgb(8, 44, 92));
+    background: -o-linear-gradient(rgb(231, 227, 227), rgb(8, 44, 92));
+    margin: 15px auto;
+    color: rgb(8, 8, 8);
+    font-size: 50px;
+    text-align: center;
+    line-height: 80px;
+    border-radius: 4px;
+}
+
+.inputContainer {
+    width: 200px;
+    margin: 0px auto;
+    padding-top: 50px;
+}
+
+.input {
+    height: 36px;
+    font-size: 1.3em;
+}
+
+#circle {
+    height: 3px;
+    width: 3px;
+    border-radius: 100%;
+    background-color: black;
+    margin: 0px auto;
+}
+
+#container {
+    height: 380px;
+    width: 750px;
+    border-radius: 5px;
+    border: 7px solid rgb(8, 44, 92);
+    margin: 5px auto;
+}
+
+#paint {
+    background-color: white;
+    cursor: crosshair;
+}
+
+.inputContainer2 {
+    width: 545px;
+    margin: 0px auto;
+    padding-top: 4px;
+}
+
+.input2 {
+    width: 181px;
+    float: left;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    padding-top: 4px;
+}
+
+.button {
+    background-color: rgb(8, 44, 92);
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 4px rgb(61, 76, 105);
+    -webkit-box-shadow: 0px 4px rgb(61, 76, 105);
+    -moz-box-shadow: 0px 4px rgb(61, 76, 105);
+    position: relative;
+}
+
+.button:hover {
+    color: rgb(8, 44, 92);
+    background: linear-gradient(rgb(231, 227, 227), rgb(67, 109, 163));
+}
+
+.button:active {
+    top: 4px;
+}
+
+.erasemode {
+    color: rgb(8, 44, 92);
+    background: linear-gradient(rgb(231, 227, 227), rgb(67, 109, 163));
+}
+
+@media only screen and (max-width: 600px) {
+    #header {
+        margin: 5px auto;
+    }
+    .inputContainer {
+        margin: 5px auto;
+    }
+    #container {
+        margin: 2px auto;
+    }
+}
